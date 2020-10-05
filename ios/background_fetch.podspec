@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.vendored_frameworks = ['TSBackgroundFetch.framework']
   s.ios.deployment_target = '8.0'
 end
 
