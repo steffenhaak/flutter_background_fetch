@@ -15,9 +15,6 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url './libs'
-        }
     }
 }
 
@@ -40,6 +37,5 @@ android {
 }
 
 dependencies {
-    implementation(group: 'com.transistorsoft', name:'tsbackgroundfetch', version: '+')
     implementation "androidx.appcompat:appcompat:${safeExtGet('appCompatVersion', "1.1.0")}"
 }
